@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/bodhai-e2e"
+    },
+    {
+      "path": "./apps/bodhai"
+    },
+    {
+      "path": "./apps/contact-e2e"
+    },
+    {
+      "path": "./apps/contact"
+    },
+    {
+      "path": "./apps/aboutus-e2e"
+    },
+    {
+      "path": "./apps/aboutus"
+    },
+    {
+      "path": "./apps/models-e2e"
+    },
+    {
+      "path": "./apps/models"
+    }
+  ]
+}

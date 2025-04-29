@@ -1,0 +1,10 @@
+{
+  "name": "aboutus-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/aboutus-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["aboutus"],
+  "// targets": "to see all targets run: nx show project aboutus-e2e --web",
+  "targets": {}
+}
