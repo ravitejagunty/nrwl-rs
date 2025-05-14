@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { stat } from "fs";
 
-interface User {
+export interface User {
   name: string | null;  
   email: string | null;
 }
@@ -16,9 +17,12 @@ const dummySlice = createSlice({
     reducers:{
         dummyUserData: (state, action) => {
             state.dummyUser = action.payload;
+        },
+        setUserData: (state, action) => {
+            state.dummyUser = action.payload;
         }
     }
 })
 
-export const { dummyUserData } = dummySlice.actions;
+export const { dummyUserData, setUserData } = dummySlice.actions;
 export default dummySlice.reducer;
